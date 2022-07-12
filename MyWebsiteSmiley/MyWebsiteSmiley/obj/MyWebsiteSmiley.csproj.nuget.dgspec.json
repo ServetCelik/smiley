@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\MyWebsiteSmiley\\MyWebsiteSmiley.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\DataAccesLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectName": "DataAccesLayer",
+        "projectPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\DataAccesLayer.csproj",
+        "packagesPath": "C:\\Users\\srvtc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srvtc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\LogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\LogicLayer.csproj",
+        "projectName": "LogicLayer",
+        "projectPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\LogicLayer.csproj",
+        "packagesPath": "C:\\Users\\srvtc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srvtc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\DataAccesLayer.csproj": {
+                "projectPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\DataAccesLayer\\DataAccesLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\MyWebsiteSmiley\\MyWebsiteSmiley.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\MyWebsiteSmiley\\MyWebsiteSmiley.csproj",
+        "projectName": "MyWebsiteSmiley",
+        "projectPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\MyWebsiteSmiley\\MyWebsiteSmiley.csproj",
+        "packagesPath": "C:\\Users\\srvtc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\MyWebsiteSmiley\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srvtc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\LogicLayer.csproj": {
+                "projectPath": "C:\\Users\\srvtc\\Desktop\\smiley\\git\\s2-cmk-wad-servet-can-celik-web-app-smiley\\MyWebsiteSmiley\\LogicLayer\\LogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\srvtc\Desktop\smiley\git\s2-cmk-wad-servet-can-celik-web-app-smiley\MyWebsiteSmiley\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.AssemblyReference.cache
+C:\Users\srvtc\Desktop\smiley\git\s2-cmk-wad-servet-can-celik-web-app-smiley\MyWebsiteSmiley\LogicLayer\obj\Debug\net5.0\LogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srvtc\Desktop\smiley\git\s2-cmk-wad-servet-can-celik-web-app-smiley\MyWebsiteSmiley\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfoInputs.cache
+C:\Users\srvtc\Desktop\smiley\git\s2-cmk-wad-servet-can-celik-web-app-smiley\MyWebsiteSmiley\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfo.cs
+C:\Users\srvtc\Desktop\smiley\git\s2-cmk-wad-servet-can-celik-web-app-smiley\MyWebsiteSmiley\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.CoreCompileInputs.cache

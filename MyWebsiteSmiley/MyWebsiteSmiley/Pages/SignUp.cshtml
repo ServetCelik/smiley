@@ -1,0 +1,28 @@
+﻿@page
+@model MyWebsiteSmiley.Pages.SignUpModel
+@{
+    ViewData["Title"] = "SignUp";
+}
+
+
+<div class="login">        
+            <form  method="post">
+                <label asp-for="user.UserName">User Name:</label> 
+                <input type="text" asp-for="user.UserName" placeholder = "User Name"><br><br>
+                <span asp-validation-for="user.UserName"></span>
+
+                <label for="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail:</label>
+                <input type="email" asp-for="user.Email" placeholder="Email"><br><br>
+                <span asp-validation-for="user.Email"></span>
+
+                <label for="password">&nbsp;&nbsp;&nbsp;Password:</label>
+                <input type="password" asp-for="user.Password" placeholder="Password"><br><br>
+                <span asp-validation-for="user.Password"></span>
+                
+                <button type="submit">Submit</button>
+                <button type="reset" value= "Cancel">Cancel</button>
+                <p>Do you have an account?</p>
+                <p><a asp-page="/login">Click here</a> Log in...</p>
+              </form>        
+             @* <p>@Model.FirstName</p>*@
+    </div>

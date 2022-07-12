@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@*<h1>@Model.username</h1>*@
+
+<div class="container">
+
+    <div class="leftBar">
+        <a href="#">Hot</a>
+        <a href="#">Fresh</a>
+        <a href="#">Top</a>
+    </div>
+
+    <div class="rightBar">
+        @*<div class="content">
+            <header>Programmers, everyday</header>
+            <img src="images/programmer.PNG" alt="submarine" height="auto">
+
+        </div>
+        <div class="content">
+            <header>If ramen noodles can’t fix it, don’t mention it.</header>
+            <img src="images/mechanic.PNG" alt="Too Late" height="auto">
+
+        </div>
+        <div class="content">
+            <header>I like broccoli and sports. Go sports!</header>
+            <img src="images/brocoli.PNG" alt="Too Late" height="auto">
+
+        </div>
+        <div class="content">
+            <header>OMG!</header>
+            <img src="images/car.PNG" alt="Too Late" height="auto">
+
+        </div>*@
+        @{
+            //I use classes of model folder here, Normally i would use classes of logiclayer but i didnt have enough time to change this part.
+            for (int i = 0; i < @Model.Posts.Count; i++)
+            {
+             <div class="content">
+            <header>@Model.Posts[i].Title</header>
+            <img src=@Model.Posts[i].ImgURL alt="Too Late" /*height="auto"*/>
+
+        </div>
+            }
+        }
+    </div>
+    
+
+</div>

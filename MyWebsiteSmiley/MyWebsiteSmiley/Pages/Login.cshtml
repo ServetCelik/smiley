@@ -1,0 +1,35 @@
+﻿@page
+@model MyWebsiteSmiley.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    //this partial name added for error messages and it ‘contains’ the required JavaScript libraries
+    
+}
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+    
+    <div class="login">        
+            <form method="post">
+                <label asp-for="user.UserName">User Name:</label>                
+                <input type="text" asp-for="user.UserName" placeholder = "User Name"><br><br>
+                <span asp-validation-for="user.UserName"></span>
+                
+                <label asp-for="user.Password">&nbsp;&nbsp;&nbsp;Password:</label>                
+                <input type="password" asp-for="user.Password" placeholder="Password"><br><br>
+                <span asp-validation-for="user.Password"></span>
+
+@*                I have a problem with that page. I cannot validate at onPost method. If I add email input as well, then i can validate but it is not what i want
+*@                @*<label for="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail:</label>
+                <input type="email" asp-for="user.Email" placeholder="Email"><br><br>
+                <span asp-validation-for="user.Email"></span>*@
+               
+                <button type="submit">Submit</button>
+                <button type="reset" value= "Cancel">Cancel</button>
+                <p>Dont you have an account yet?</p>
+                <p><a asp-page="/signup">Click here</a> sing up...</p>
+              </form>
+              <p>@Model.password</p>
+    </div>

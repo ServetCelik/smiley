@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Smiley</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <nav>
+        <div class="navdiv">
+            <div>
+                <a asp-page="/index"><img class="navLogo" src="~/images/logo.png" width="35" alt="Logo of website"></a>
+            </div>
+            <div class="navLinks">                
+                <a asp-page="/sidepage">Home</a>
+                <a asp-page="/SignUp">Sign Up</a>
+                <a asp-page="/login">Log In</a>
+                <a asp-page="/upload">Upload</a>
+                
+            </div>
+
+        </div>
+    </nav>
+    @RenderBody()
+
+    <div class="footer">
+        <p>This website is created by Servet</p>
+
+    </div>    
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
